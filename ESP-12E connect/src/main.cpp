@@ -4,7 +4,7 @@
 #include <WiFiClientSecure.h>
 #include <time.h>
 #include <ArduinoJson.h>
-
+#include <privat.h>
 #define LED 2
 
 
@@ -13,12 +13,6 @@ char workgroup[32] = "workgroup";
 char ha_name[] ="core-mosquitto";
 
 // WiFi credentials.
-const char* WIFI_SSID    = "askob";
-const char* WIFI_PASS    = "bingeling";
-const char mqtt_server[] = "192.168.1.246";
-const char mqtt_port[]   = "1883";
-const char username[]    = "homeassistant";
-const char password[]    = "AiZoSh5yiev0ziePiedae0eih5ohQu3sheangieguug1Geizoosheat7phoh6ahj";
 
 char mqttTopicStatus[30];
 
