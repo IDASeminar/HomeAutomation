@@ -4,7 +4,7 @@ IDA Homeautomation
 Dagsorden:
 * Installation
 * Gennegang af UI
-* Case gennemgang
+* Case gennemgang (Lys, pressent detect, gulvvarme )
 * DIY integration
 * Protokoller (zigbee-Zwave-wifi)
 
